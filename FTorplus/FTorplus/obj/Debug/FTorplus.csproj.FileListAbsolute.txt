@@ -1,0 +1,67 @@
+C:\Users\auxdesarrollo1\Documents\Visual Studio 2013\Projects\DXApplication1\FTorplus\bin\Debug\FTorplus.exe
+C:\Users\auxdesarrollo1\Documents\Visual Studio 2013\Projects\DXApplication1\FTorplus\bin\Debug\FTorplus.pdb
+C:\Users\auxdesarrollo1\Documents\Visual Studio 2013\Projects\DXApplication1\FTorplus\obj\Debug\FTorplus.csprojResolveAssemblyReference.cache
+C:\Users\auxdesarrollo1\Documents\Visual Studio 2013\Projects\DXApplication1\FTorplus\obj\Debug\FTorplus.Properties.Resources.resources
+C:\Users\auxdesarrollo1\Documents\Visual Studio 2013\Projects\DXApplication1\FTorplus\obj\Debug\FTorplus.csproj.GenerateResource.Cache
+C:\Users\auxdesarrollo1\Documents\Visual Studio 2013\Projects\DXApplication1\FTorplus\obj\Debug\FTorplus.exe.licenses
+C:\Users\auxdesarrollo1\Documents\Visual Studio 2013\Projects\DXApplication1\FTorplus\obj\Debug\FTorplus.exe
+C:\Users\auxdesarrollo1\Documents\Visual Studio 2013\Projects\DXApplication1\FTorplus\obj\Debug\FTorplus.pdb
+C:\Users\auxdesarrollo1\Documents\Visual Studio 2013\Projects\DXApplication1\FTorplus\obj\Debug\FTorplus.frmPrincipal.resources
+C:\Users\auxdesarrollo1\Documents\Visual Studio 2013\Projects\DXApplication1\FTorplus\obj\Debug\FTorplus.Formularios.frmListTramosPromocion.resources
+C:\Users\auxdesarrollo1\Documents\Visual Studio 2013\Projects\DXApplication1\FTorplus\bin\Debug\FTorplus.exe.config
+C:\Users\auxdesarrollo1\Documents\Visual Studio 2013\Projects\DXApplication1\FTorplus\obj\Debug\FTorplus.Formularios.frmBuscarReferencia.resources
+C:\Users\auxdesarrollo1\Documents\Visual Studio 2013\Projects\FTorplus\FTorplus\bin\Debug\FTorplus.exe.config
+C:\Users\auxdesarrollo1\Documents\Visual Studio 2013\Projects\FTorplus\FTorplus\obj\Debug\FTorplus.exe
+C:\Users\auxdesarrollo1\Documents\Visual Studio 2013\Projects\FTorplus\FTorplus\obj\Debug\FTorplus.pdb
+C:\Users\auxdesarrollo1\Documents\Visual Studio 2013\Projects\FTorplus\FTorplus\bin\Debug\FTorplus.exe
+C:\Users\auxdesarrollo1\Documents\Visual Studio 2013\Projects\FTorplus\FTorplus\bin\Debug\FTorplus.pdb
+C:\Users\auxdesarrollo1\Documents\Visual Studio 2013\Projects\FTorplus\FTorplus\obj\Debug\FTorplus.csprojResolveAssemblyReference.cache
+C:\Users\auxdesarrollo1\Documents\Visual Studio 2013\Projects\FTorplus\FTorplus\obj\Debug\FTorplus.Formularios.frmBuscarReferencia.resources
+C:\Users\auxdesarrollo1\Documents\Visual Studio 2013\Projects\FTorplus\FTorplus\obj\Debug\FTorplus.Formularios.frmListTramosPromocion.resources
+C:\Users\auxdesarrollo1\Documents\Visual Studio 2013\Projects\FTorplus\FTorplus\obj\Debug\FTorplus.frmPrincipal.resources
+C:\Users\auxdesarrollo1\Documents\Visual Studio 2013\Projects\FTorplus\FTorplus\obj\Debug\FTorplus.Properties.Resources.resources
+C:\Users\auxdesarrollo1\Documents\Visual Studio 2013\Projects\FTorplus\FTorplus\obj\Debug\FTorplus.csproj.GenerateResource.Cache
+C:\Users\auxdesarrollo1\Documents\Visual Studio 2013\Projects\FTorplus\FTorplus\obj\Debug\FTorplus.exe.licenses
+C:\Users\auxdesarrollo1\OneDrive\Documentos\FTorplus\FTorplus\bin\Debug\FTorplus.exe.config
+C:\Users\auxdesarrollo1\OneDrive\Documentos\FTorplus\FTorplus\obj\Debug\FTorplus.exe
+C:\Users\auxdesarrollo1\OneDrive\Documentos\FTorplus\FTorplus\obj\Debug\FTorplus.pdb
+T:\GESTION TIC\FTorplus\FTorplus\bin\Debug\FTorplus.exe.config
+T:\GESTION TIC\FTorplus\FTorplus\bin\Debug\FTorplus.exe
+T:\GESTION TIC\FTorplus\FTorplus\bin\Debug\FTorplus.pdb
+T:\GESTION TIC\FTorplus\FTorplus\bin\Debug\EntityFramework.dll
+T:\GESTION TIC\FTorplus\FTorplus\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+T:\GESTION TIC\FTorplus\FTorplus\bin\Debug\System.Data.dll
+T:\GESTION TIC\FTorplus\FTorplus\bin\Debug\EntityFramework.xml
+T:\GESTION TIC\FTorplus\FTorplus\bin\Debug\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+T:\GESTION TIC\FTorplus\FTorplus\obj\Debug\FTorplus.csprojFakesResolveAssemblyReference.cache
+T:\GESTION TIC\FTorplus\FTorplus\obj\Debug\FTorplus.Formularios.frmListTramosPromocion.resources
+T:\GESTION TIC\FTorplus\FTorplus\obj\Debug\FTorplus.frmPrincipal.resources
+T:\GESTION TIC\FTorplus\FTorplus\obj\Debug\FTorplus.Properties.Resources.resources
+T:\GESTION TIC\FTorplus\FTorplus\obj\Debug\FTorplus.csproj.GenerateResource.Cache
+T:\GESTION TIC\FTorplus\FTorplus\obj\Debug\FTorplus.exe.licenses
+T:\GESTION TIC\FTorplus\FTorplus\obj\Debug\FTorplus.exe
+T:\GESTION TIC\FTorplus\FTorplus\obj\Debug\FTorplus.pdb
+U:\auxdesarrollo1\FTorplus\FTorplus\bin\Debug\FTorplus.exe.config
+U:\auxdesarrollo1\FTorplus\FTorplus\obj\Debug\FTorplus.exe
+U:\auxdesarrollo1\FTorplus\FTorplus\obj\Debug\FTorplus.pdb
+T:\GESTION TIC\FTorplus\FTorplus\obj\Debug\FTorplus.rptListaTramosPromo.resources
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus\bin\Debug\FTorplus.exe.config
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus\bin\Debug\FTorplus.exe
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus\bin\Debug\FTorplus.pdb
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus\bin\Debug\EntityFramework.dll
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus\bin\Debug\System.Data.dll
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus\bin\Debug\EntityFramework.xml
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus\bin\Debug\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus\obj\Debug\FTorplus.csprojResolveAssemblyReference.cache
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus\obj\Debug\FTorplus.Presentacion.FrmCiudades.resources
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus\obj\Debug\FTorplus.Presentacion.FrmInicio.resources
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus\obj\Debug\FTorplus.Reportes.RptListaTramos2.resources
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus\obj\Debug\FTorplus.Presentacion.FrmMenu.resources
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus\obj\Debug\FTorplus.Properties.Resources.resources
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus\obj\Debug\FTorplus.csproj.GenerateResource.Cache
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus\obj\Debug\FTorplus.exe.licenses
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus\obj\Debug\FTorplus.exe
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus\obj\Debug\FTorplus.pdb
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus\obj\Debug\FTorplus.Presentacion.FrmListPorTramosPromo.resources
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus\obj\Debug\FTorplus.Presentacion.frmListPorDiasQuietoPromo.resources

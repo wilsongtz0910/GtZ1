@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="comp01Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="desmacli">
+    <Key>
+      <PropertyRef Name="CODTER" />
+    </Key>
+    <Property Name="CODTER" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CUPO" Type="Double" />
+    <Property Name="DOLAR" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="VENDEDOR" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NEGOCIO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="F_INGRESO" Type="DateTime" />
+    <Property Name="ZONA" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="DIAS_VEN" Type="Int32" />
+    <Property Name="DESCUENTO" Type="Double" />
+    <Property Name="LISPRE" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="TIPO_CL" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="ESTADO" Type="Int32" />
+    <Property Name="EXCENTO_IVA" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="PAGARE" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="RESPONSABLE" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="OBSERVACION" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="PAGADURIA" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="CODMED" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="DSCTO_FINAN1" Type="Double" />
+    <Property Name="DSCTO_FINAN2" Type="Double" />
+    <Property Name="DIAS_FINAN1" Type="Int32" />
+    <Property Name="DIAS_FINAN2" Type="Int32" />
+    <Property Name="RESPONSABLE2" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="RESPONSABLE3" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="ES_PAGADURIA" Type="Int32" />
+    <Property Name="CODVEN2" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="USU_CAR" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="TEMPOCU_VALOR" Type="Double" />
+    <Property Name="TEMPOCU_FECHA" Type="DateTime" />
+    <Property Name="TEMPOCU_DIAS" Type="Int32" />
+    <Property Name="TEMPOCU_NOTA" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="DSCTO_RELACION" Type="Double" />
+    <Property Name="CUPOPROTEG" Type="Double" />
+    <Property Name="SOLI_CREDITO" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="NROSOLCRE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="FECHA_SOLCRE" Type="DateTime" />
+    <Property Name="NROPAGARE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="FECHA_PAGARE" Type="DateTime" />
+    <Property Name="FECHA_PAGARE_VEN" Type="DateTime" />
+    <Property Name="CODTASA" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="desmaref">
+    <Key>
+      <PropertyRef Name="codref" />
+    </Key>
+    <Property Name="codref" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NOMREF" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="REFERENCIA" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="DETALLE" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+    <Property Name="UNIDAD" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="UNIDADEMP" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="CANT_EMPA" Type="Double" />
+    <Property Name="PESO_EMPA" Type="Double" />
+    <Property Name="UNID_PESO" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="SERVICIO" Type="Int32" />
+    <Property Name="PORICON" Type="Double" />
+    <Property Name="VALICON" Type="Double" />
+    <Property Name="PORDCTO" Type="Double" />
+    <Property Name="PORIVA" Type="Double" />
+    <Property Name="TP_ITEM" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="DES_ADIC" Type="Int32" />
+    <Property Name="PRE_MINI" Type="Double" />
+    <Property Name="COSTO_SUG" Type="Double" />
+    <Property Name="LOTE" Type="Int32" />
+    <Property Name="SERIAL" Type="Int32" />
+    <Property Name="PROD_COMBO" Type="Int32" />
+    <Property Name="UBICACION" Type="Int32" />
+    <Property Name="LARGO" Type="Double" />
+    <Property Name="ANCHO" Type="Double" />
+    <Property Name="ALTO" Type="Double" />
+    <Property Name="CAN_SERIAL" Type="Double" />
+    <Property Name="ESTADO" Type="Int32" />
+    <Property Name="COD_BARRA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="foto_RUT" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="STOCK_MIN" Type="Int32" />
+    <Property Name="STOCK_MAX" Type="Int32" />
+    <Property Name="NEW_USU" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="NEW_DATE" Type="DateTime" />
+    <Property Name="NEW_TIME" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="MOD_USU" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="MOD_DATE" Type="DateTime" />
+    <Property Name="MOD_TIME" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="MES_GAR" Type="Int32" />
+    <Property Name="ARTI_DOLAR" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="DSCTO_MIN" Type="Double" />
+    <Property Name="DSCTO_MAX" Type="Double" />
+    <Property Name="PORREN" Type="Double" />
+    <Property Name="PORDPTE" Type="Double" />
+    <Property Name="FOR_FLETE" Type="Int32" />
+    <Property Name="TP_ITEM2" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="PORRF" Type="Double" />
+    <Property Name="CODRF" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="ZONA" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="ESTANTERIA" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="ESTANTE" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="CASILLA" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="ULTPROVEE" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="ULTDOCPRO" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ULTFECCOM" Type="DateTime" />
+    <Property Name="APLICA_STOC" Type="Int32" />
+    <Property Name="STOCK_MIN_A" Type="Int32" />
+    <Property Name="DENSIDAD" Type="Double" />
+    <Property Name="TIPO_PRODUCCION" Type="Int32" />
+    <Property Name="BONIFICADO" Type="Int32" />
+    <Property Name="PORICON_RES" Type="Double" />
+    <Property Name="numero_sello" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="entidad_cert" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="vcto_sello" Type="DateTime" />
+    <Property Name="BUSQUEDA_1" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="BUSQUEDA_2" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="PROD_COMBO_ING" Type="Int32" />
+  </EntityType>
+  <EntityType Name="desmater">
+    <Key>
+      <PropertyRef Name="CODTER" />
+    </Key>
+    <Property Name="CODTER" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NOMTER" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="TIPO_IDENT" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="NRO_IDENT" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="DIR_RESIDE" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="TEL_RESIDE" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="CD_CIURESI" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="DIR_COMERC" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="TEL_COMERC" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="CD_CIUCIAL" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="BARRIO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="EMAIL" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="ENVIO_CORR" Type="Int32" />
+    <Property Name="FEC_CUMPLE" Type="DateTime" />
+    <Property Name="PRE_SERIAL" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="R_LEGAL" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="REGIMEN" Type="Int32" />
+    <Property Name="BASEICA" Type="Double" />
+    <Property Name="BASERETIVA" Type="Double" />
+    <Property Name="PORICA" Type="Double" />
+    <Property Name="RETEIVA" Type="Double" />
+    <Property Name="AUTORETE" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="AUTORETE_ICA" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="CODRF" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="NEW_USU" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="NEW_DATE" Type="DateTime" />
+    <Property Name="NEW_TIME" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="MOD_USU" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="MOD_DATE" Type="DateTime" />
+    <Property Name="MOD_TIME" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CONTACTO" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="RAPIDA" Type="Int32" />
+    <Property Name="TEL_CELULAR" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="NOMBRE1" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NOMBRE2" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="APELLIDO1" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="APELLIDO2" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="OBSERVACION" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+    <Property Name="DES_PMIN" Type="Int32" />
+    <Property Name="ULTFECMOV" Type="DateTime" />
+    <Property Name="OBSERVACIONESTMP" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+    <Property Name="DES_CCRE" Type="Int32" />
+    <Property Name="SEXO" Type="Int32" />
+    <Property Name="ESTADOCIVIL" Type="Int32" />
+    <Property Name="CLI_CREDITO" Type="Int32" />
+    <Property Name="DSCTO_FINAN3" Type="Double" />
+    <Property Name="COD_ACT_ECO" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="NoCree" Type="Int32" />
+    <Property Name="REG_ESPECIAL" Type="Int32" />
+    <Property Name="COD_BARRIO" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="REQUISITO_1" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="REQUISITO_2" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="DIAMAXREM" Type="Int32" />
+    <Property Name="DIAMAXFAC" Type="Int32" />
+    <Property Name="LATITUD" Type="Double" />
+    <Property Name="LONGITUD" Type="Double" />
+    <Property Name="ORIGEN" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="NoIca" Type="Int32" />
+  </EntityType>
+  <EntityType Name="desmaubi">
+    <Key>
+      <PropertyRef Name="UBICACION" />
+    </Key>
+    <Property Name="UBICACION" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DESCRIP" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TIEMPO" Type="Int32" />
+    <Property Name="COD_MAQUINA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="DESACTIVAR" Type="Int32" />
+  </EntityType>
+  <EntityType Name="desslubi">
+    <Key>
+      <PropertyRef Name="CODSUC" />
+      <PropertyRef Name="codref" />
+      <PropertyRef Name="UBICACION" />
+      <PropertyRef Name="LOTE" />
+    </Key>
+    <Property Name="CODSUC" Type="String" MaxLength="2" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ANO" Type="String" MaxLength="4" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="codref" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UBICACION" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="LOTE" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SALDO_INI" Type="Double" />
+    <Property Name="EXISTEN" Type="Double" />
+    <Property Name="APARTADO" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="FECHA_AP" Type="DateTime" />
+    <Property Name="USUARIO_AP" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="INACTIVO" Type="Int32" />
+    <Property Name="UBICA_ANT" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="POSICIONANDO" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="POSICIONANDO_REM" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="CODTER" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="Ult_fec_com" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="desmvca">
+    <Key>
+      <PropertyRef Name="OBSERVA01" />
+      <PropertyRef Name="OBSERVA02" />
+      <PropertyRef Name="OBSERVA03" />
+      <PropertyRef Name="nrodoc_old" />
+    </Key>
+    <Property Name="CODSUC" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="CODCON" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="NRODOC" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="USUARIO" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="FECHA" Type="DateTime" />
+    <Property Name="FECHA_ENT" Type="DateTime" />
+    <Property Name="HORA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CODTER" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="DOLAR" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="CODVEN" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="TERMINAL" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="VLRBRUTO" Type="Double" />
+    <Property Name="PORDCTO" Type="Double" />
+    <Property Name="VLRDCT" Type="Double" />
+    <Property Name="PORIVA" Type="Double" />
+    <Property Name="VLRIVA" Type="Double" />
+    <Property Name="PORRET" Type="Double" />
+    <Property Name="BASRET" Type="Int32" />
+    <Property Name="VLRRET" Type="Double" />
+    <Property Name="VLRRETIVA" Type="Double" />
+    <Property Name="PORRETIVA" Type="Double" />
+    <Property Name="VLRICA" Type="Double" />
+    <Property Name="PORICA" Type="Double" />
+    <Property Name="VLRMOV" Type="Double" />
+    <Property Name="EFECTIVO" Type="Double" />
+    <Property Name="CHEQUE" Type="Double" />
+    <Property Name="TCREDITO" Type="Double" />
+    <Property Name="TDEBITO" Type="Double" />
+    <Property Name="CARTERA" Type="Double" />
+    <Property Name="TASA" Type="Double" />
+    <Property Name="DESCTO" Type="Double" />
+    <Property Name="OTROS_ING" Type="Double" />
+    <Property Name="PAGADO" Type="Double" />
+    <Property Name="DEVOL" Type="Double" />
+    <Property Name="ESTADO" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="OBSERVA01" Type="String" MaxLength="400" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="OBSERVA02" Type="String" MaxLength="400" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="OBSERVA03" Type="String" MaxLength="400" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IVA_INCLU" Type="Int32" />
+    <Property Name="DOCREF1" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="DOCREF2" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="C_COSTOS" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="DESC_PP" Type="Double" />
+    <Property Name="DIAS_PP" Type="Int32" />
+    <Property Name="CODCON_AFE" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="NRODOC_AFE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CODCON_AFE_R" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="NRODOC_AFE_R" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="VLRFLETE" Type="Double" />
+    <Property Name="VL_IVAFLE" Type="Double" />
+    <Property Name="POR_IVAFLE" Type="Double" />
+    <Property Name="VL_IMPCON" Type="Double" />
+    <Property Name="SUGER_PRE" Type="Int32" />
+    <Property Name="CUALSUGER" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="TRANS_CON" Type="Int32" />
+    <Property Name="SUC_DEST" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="CON_DEST" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="DOC_DEST" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ORIGEN" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="NROPEDORD" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="NEW_DATE" Type="DateTime" />
+    <Property Name="MOD_USU" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="iva_discr" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="INTEGRIDAD" Type="String" MaxLength="26" FixedLength="false" Unicode="false" />
+    <Property Name="MOD_DATE" Type="DateTime" />
+    <Property Name="MOD_TIME" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CRUCE_DOC" Type="Double" />
+    <Property Name="VLRDCT_CAJA" Type="Double" />
+    <Property Name="IMPRESORA" Type="Int32" />
+    <Property Name="PLANILLA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CAUSAL" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="CODMOT" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="CUENTA_RET" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="CODTER_AFE" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="VLRFLETE_OTRO" Type="Double" />
+    <Property Name="VL_IMPDPTE" Type="Double" />
+    <Property Name="FEC_IMPOR" Type="DateTime" />
+    <Property Name="NRO_IMPOR" Type="Int32" />
+    <Property Name="OBSERVA1_SEG" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="OBSERVA2_SEG" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="OBSERVA3_SEG" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="OBS_CAL_FLE" Type="Double" />
+    <Property Name="CONSIGNA" Type="Double" />
+    <Property Name="DSCTO_VOL1" Type="Double" />
+    <Property Name="DSCTO_VOL2" Type="Double" />
+    <Property Name="DSCTO_VOL3" Type="Double" />
+    <Property Name="VLRDCTV1" Type="Double" />
+    <Property Name="VLRDCTV2" Type="Double" />
+    <Property Name="VLRDCTV3" Type="Double" />
+    <Property Name="VAL_KILO" Type="Double" />
+    <Property Name="VAL_EMPA" Type="Double" />
+    <Property Name="FECHA_CON" Type="DateTime" />
+    <Property Name="LIQ_FENALCE" Type="Int32" />
+    <Property Name="POR_FENALCE" Type="Double" />
+    <Property Name="CODVEN2" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="PORCOMI" Type="Double" />
+    <Property Name="EXPOR" Type="Int32" />
+    <Property Name="POR_RETFLE" Type="Double" />
+    <Property Name="CODMED" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="NROTAREA" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="NRORADICA" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="MOD_AUTO" Type="Int32" />
+    <Property Name="CODCAJA" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="CODMON" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="CNTDAD_MON" Type="Double" />
+    <Property Name="TASA_MON" Type="Double" />
+    <Property Name="NRO_CIECAJ" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="FEC_CIECAJ" Type="DateTime" />
+    <Property Name="REG_PROG" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CAN_REG" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="BCO_CSG" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="VLR_OTROS_P" Type="Double" />
+    <Property Name="LIS_OTROS_P" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="NRO_ITEMS" Type="Int32" />
+    <Property Name="FORMPAG" Type="Int32" />
+    <Property Name="des_para" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="des_attn" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="des_codciu" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="des_telefono" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="des_ocompra" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="PAGADURIA" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="contac_ent" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="direcc_ent" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="telefo_ent" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="ciudad_ent" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RELA_FACT" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="NROCONSE_DOC" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="nrodoc_old" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="contar" Type="Int32" />
+    <Property Name="PREFIJO" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="TIEMPO_REM" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="VLRFLETE_1" Type="Double" />
+    <Property Name="VLRFLETE_2" Type="Double" />
+    <Property Name="VL_IMPCON_RES" Type="Double" />
+    <Property Name="PORCREE" Type="Double" />
+    <Property Name="VLRCREE" Type="Double" />
+    <Property Name="VLRFLETE_4" Type="Double" />
+    <Property Name="FINAN_CAP" Type="Double" />
+    <Property Name="FINAN_INT" Type="Double" />
+    <Property Name="FINAN_CUOTAS" Type="Int32" />
+    <Property Name="FINAN_FECINI" Type="DateTime" />
+    <Property Name="BLOQUEO" Type="Int32" />
+    <Property Name="CAMBIO_DATOS" Type="Int32" />
+    <Property Name="VLRCREE_AUTO" Type="Double" />
+    <Property Name="CODRESOL" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="TASA_SEGURO" Type="Double" />
+    <Property Name="PORCRC" Type="Double" />
+    <Property Name="PORMINTIC" Type="Double" />
+    <Property Name="VLRCRC" Type="Double" />
+    <Property Name="VLRMINTIC" Type="Double" />
+    <Property Name="VLRDCTFINAN" Type="Double" />
+  </EntityType>
+  <EntityContainer Name="EntitiesComp01" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="desmacli" EntityType="Self.desmacli" />
+    <EntitySet Name="desmaref" EntityType="Self.desmaref" />
+    <EntitySet Name="desmater" EntityType="Self.desmater" />
+    <EntitySet Name="desmaubi" EntityType="Self.desmaubi" />
+    <EntitySet Name="desslubi" EntityType="Self.desslubi" />
+    <EntitySet Name="desmvca" EntityType="Self.desmvca" />
+  </EntityContainer>
+</Schema>

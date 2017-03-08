@@ -1,0 +1,16 @@
+C:\Users\sistemas1\Desktop\FTorplus\FTorplus-Datos\bin\Debug\FTorplus-Datos.dll
+C:\Users\sistemas1\Desktop\FTorplus\FTorplus-Datos\bin\Debug\FTorplus-Datos.pdb
+C:\Users\sistemas1\Desktop\FTorplus\FTorplus-Datos\bin\Debug\FTorplus-Entidades.dll
+C:\Users\sistemas1\Desktop\FTorplus\FTorplus-Datos\bin\Debug\FTorplus-Entidades.pdb
+C:\Users\sistemas1\Desktop\FTorplus\FTorplus-Datos\obj\Debug\FTorplus-Datos.dll
+C:\Users\sistemas1\Desktop\FTorplus\FTorplus-Datos\obj\Debug\FTorplus-Datos.pdb
+C:\Users\sistemas1\Desktop\FTorplus\FTorplus-Datos\obj\Debug\FTorplus-Datos.csprojResolveAssemblyReference.cache
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus-Datos\bin\Debug\FTorplus-Datos.dll
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus-Datos\bin\Debug\FTorplus-Datos.pdb
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus-Datos\bin\Debug\FTorplus-Entidades.dll
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus-Datos\bin\Debug\MySql.Data.dll
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus-Datos\bin\Debug\FTorplus-Entidades.pdb
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus-Datos\bin\Debug\MySql.Data.xml
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus-Datos\obj\Debug\FTorplus-Datos.csprojResolveAssemblyReference.cache
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus-Datos\obj\Debug\FTorplus-Datos.dll
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus-Datos\obj\Debug\FTorplus-Datos.pdb

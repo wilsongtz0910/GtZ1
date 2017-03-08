@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="companiasModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="descfcom">
+    <Key>
+      <PropertyRef Name="CODCOM" />
+    </Key>
+    <Property Name="CODCOM" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NOMCOM" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NIT" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="DIRECCION" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="CIUDAD" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="TELEFONOS" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="FOR_CODIGO" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="RUTA_FOTO" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="OTROS_ARC" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="CAPT_DATOS" Type="Int32" />
+    <Property Name="IVA_INCLU" Type="Int32" />
+    <Property Name="IVA_DISCR" Type="Int32" />
+    <Property Name="REGIMEN" Type="Int32" />
+    <Property Name="AUTO_RETENEDOR" Type="Int32" />
+    <Property Name="TP_NEGOCIO" Type="Int32" />
+    <Property Name="VERSION" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="VER_STOCK" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="RF_VT_SI" Type="Int32" />
+    <Property Name="RF_VT_CO" Type="Int32" />
+    <Property Name="RF_VT_GC" Type="Int32" />
+    <Property Name="RF_CO_SI" Type="Int32" />
+    <Property Name="RF_CO_CO" Type="Int32" />
+    <Property Name="RF_CO_GC" Type="Int32" />
+    <Property Name="RIVA_VT_SI" Type="Int32" />
+    <Property Name="RIVA_VT_CO" Type="Int32" />
+    <Property Name="RIVA_VT_GC" Type="Int32" />
+    <Property Name="RIVA_CO_SI" Type="Int32" />
+    <Property Name="RIVA_CO_CO" Type="Int32" />
+    <Property Name="RIVA_CO_GC" Type="Int32" />
+    <Property Name="RICA_VT_SI" Type="Int32" />
+    <Property Name="RICA_VT_CO" Type="Int32" />
+    <Property Name="RICA_VT_GC" Type="Int32" />
+    <Property Name="RICA_CO_SI" Type="Int32" />
+    <Property Name="RICA_CO_CO" Type="Int32" />
+    <Property Name="RICA_CO_GC" Type="Int32" />
+    <Property Name="COSTO_OCULTO" Type="Int32" />
+    <Property Name="PORICA_CO_SI" Type="Double" />
+    <Property Name="PORICA_VT_SI" Type="Double" />
+    <Property Name="IVADCL_CO_SI" Type="Double" />
+    <Property Name="IVADCL_VT_SI" Type="Double" />
+    <Property Name="PORRETIVA" Type="Double" />
+    <Property Name="SERIAL" Type="Int32" />
+    <Property Name="CTA_PERDIDA" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="CTA_UTILIDAD" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="libranza" Type="Int32" />
+    <Property Name="FORMATO_CLI" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="FORMATO_PRO" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="FORMATO_TER" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="DEV_CAR_C" Type="Int32" />
+    <Property Name="DEV_CAR_D" Type="Int32" />
+    <Property Name="MOS_UTILIDAD" Type="Int32" />
+    <Property Name="CODIGO_DIAN" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="DETALLE_CON" Type="Int32" />
+    <Property Name="RUTA_COP_SER_SO" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="RUTA_COP_SER_WIN" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="BLOQ_USU" Type="Int32" />
+    <Property Name="COMP_ESP" Type="Int32" />
+    <Property Name="IMP_ARCHIVO_PDF" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="LIQFONDO" Type="Int32" />
+    <Property Name="AJU_MAXPESO" Type="Int32" />
+    <Property Name="RUTA_COP_SOPORTE" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="COPIA_AUTOMATICA" Type="Int32" />
+    <Property Name="DESCUADRE_CON" Type="Int32" />
+    <Property Name="esc_con" Type="Int32" />
+    <Property Name="mod_auto" Type="Int32" />
+    <Property Name="IVA_SUG" Type="Double" />
+    <Property Name="TERCERO" Type="Int32" />
+    <Property Name="USU_AUTO" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="BLOQUEO" Type="Int32" />
+    <Property Name="USU_BLOQ" Type="Int32" />
+    <Property Name="REP_LEGAL" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="CONTADOR" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="REV_FISCAL" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="COMP_CONT_PAR" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="APL_ICA" Type="Int32" />
+    <Property Name="CODIGO_COLOR" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="IVA_AUTORIZADOS" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="conse_anual" Type="Int32" />
+    <Property Name="sesiones" Type="Int32" />
+    <Property Name="USU_AUT_CAR1" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="USU_AUT_CAR2" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="USU_AUT_CAR3" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="COD_USU_BLOQ" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="dias_max_cli" Type="Double" />
+    <Property Name="dias_con_cli" Type="Int32" />
+    <Property Name="restaurar" Type="Int32" />
+    <Property Name="COD_ACT_ECO" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="CREE_VT_SI" Type="Int32" />
+    <Property Name="CREE_VT_CO" Type="Int32" />
+    <Property Name="CREE_VT_GC" Type="Int32" />
+    <Property Name="CREE_CO_SI" Type="Int32" />
+    <Property Name="CREE_CO_CO" Type="Int32" />
+    <Property Name="CREE_CO_GC" Type="Int32" />
+    <Property Name="CAPT_CODVEN" Type="Int32" />
+    <Property Name="BASE_CREE" Type="Double" />
+    <Property Name="Int_Mora" Type="Double" />
+    <Property Name="agrupar" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="POR_CRC" Type="Double" />
+    <Property Name="POR_MINTIC" Type="Double" />
+    <Property Name="DETALLE_CON_2" Type="Int32" />
+    <Property Name="BASE_ICA" Type="Double" />
+    <Property Name="POR_ICA" Type="Double" />
+    <Property Name="estadistico" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="companiasEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="descfcom" EntityType="Self.descfcom" />
+  </EntityContainer>
+</Schema>

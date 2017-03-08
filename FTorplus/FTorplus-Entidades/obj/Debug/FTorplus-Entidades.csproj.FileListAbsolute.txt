@@ -1,0 +1,5 @@
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus-Entidades\bin\Debug\FTorplus-Entidades.dll
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus-Entidades\bin\Debug\FTorplus-Entidades.pdb
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus-Entidades\obj\Debug\FTorplus-Entidades.csprojResolveAssemblyReference.cache
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus-Entidades\obj\Debug\FTorplus-Entidades.dll
+C:\Users\auxdesarrollo1\Documents\FTorplus\FTorplus-Entidades\obj\Debug\FTorplus-Entidades.pdb
